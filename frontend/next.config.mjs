@@ -1,7 +1,5 @@
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
-  // Allow cross-origin requests from Railway backend in dev
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async headers() {
     return [
       {

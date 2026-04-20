@@ -67,9 +67,3 @@ A web app that scores whether Starlink satellite internet is right for you based
 │   └── requirements.txt
 └── orbitcheck.html                  # Standalone single-file version
 ```
-
-
-
-## Design
-
-Black and white brutalist aesthetic — no border radius on interactive elements, monospace labels, custom CSS cursor, noise overlay, and scroll reveal animations. Typography uses Barlow Condensed (headings), Barlow (body), and DM Mono (labels/code).

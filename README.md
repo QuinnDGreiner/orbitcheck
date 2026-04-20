@@ -68,29 +68,7 @@ A web app that scores whether Starlink satellite internet is right for you based
 └── orbitcheck.html                  # Standalone single-file version
 ```
 
----
 
-## Running Locally
-
-### Backend
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
-# Running at http://localhost:8000
-```
-
-### Frontend
-```bash
-cd frontend
-cp .env.local.example .env.local
-# Set NEXT_PUBLIC_API_URL=http://localhost:8000 in .env.local
-npm install
-npm run dev
-# Running at http://localhost:3000
-```
-
----
 
 ## Design
 
